@@ -1,0 +1,16 @@
+.row {
+  background-color: #fff;
+  text-transform: capitalize;
+}
+
+.row:nth-child(2n) {
+  background-color: #dcdcdc;
+}
+
+.cell {
+  padding: 5px 0;
+}
+
+.cell:not(:last-child) {
+  border-right: 1px solid #b2b1b1;
+}
